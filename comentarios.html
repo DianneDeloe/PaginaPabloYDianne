@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Quicksand', sans-serif; 
+            color: black;
+            font-size: 25px;
+            background-color: #f0f8ff; /* Color de fondo más llamativo */
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            color: #00bfff;
+        }
+        #contenido {
+            margin: 0 auto;
+            max-width: 800px;
+            text-align: left;
+            padding: 20px;
+        }
+        form div {
+            margin-bottom: 10px;
+        }
+        textarea, input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px; /* Bordes redondeados para campos del formulario */
+            border: 1px solid #ccc; /* Borde gris claro para campos del formulario */
+        }
+        .button {
+            background-color: #00bfff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .button:hover {
+            background-color: #007acc;
+        }
+        .button-yellow {
+            background-color: #ffd700;
+            color: black;
+        }
+        .button-yellow:hover {
+            background-color: #ffa500;
+        }
+        .sociales {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .sociales img {
+            width: 150px; /* Tamaño más pequeño de la imagen para evitar superposición */
+            height: auto;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        .sociales a {
+            display: block;
+            margin: 10px auto;
+        }
+        footer {
+            background-color: #282c34;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MUSICA CON DIANA Y PABLO</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="bienvenidos.html" class="button">Bienvenidos</a></li>
+        <li><a href="musica.html" class="button">Música</a></li>
+        <li><a href="portafolio.html" class="button">Portafolio</a></li>
+        <li><a href="comentarios.html" class="button">Comentarios</a></li>
+    </ul>
+</nav>
+
+<div id="contenido">
+    <h2>Deja tu comentario</h2>
+    <form action="#" method="post">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+        </div>
+        <div>
+            <label for="email">Correo electrónico (opcional):</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <button type="submit" class="button">Enviar comentario</button>
+        </div>
+    </form>
+
+    <div class="sociales">
+        <h3>Nuestras Redes Sociales</h3>
+        <img src="imagenes/Instagram_logo_2022.svg.png" alt="Instagram Logo"/>
+        <a href="https://www.instagram.com/pablito.motopapi/" target="_blank" class="button button-yellow">Instagram de Pablo</a>
+        <a href="https://www.instagram.com/polvosestelares/" target="_blank" class="button button-yellow">Instagram de Dianne</a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 Música con Diana y Pablo. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
