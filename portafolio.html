@@ -10,17 +10,15 @@
             margin: 0;
             padding: 0;
             font-family: 'Quicksand', sans-serif; 
-            text-align: center;
             color: black;
+            font-size: 25px;
+            background-color: #f0f8ff; /* Color de fondo más llamativo */
         }
         header {
             background-color: #282c34;
             color: white;
             padding: 20px;
             text-align: center;
-        } 
-        nav {
-            margin-bottom: 20px;
         }
         nav ul {
             list-style: none;
@@ -49,9 +47,17 @@
         #contenido img {
             display: block;
             margin: 0 auto;
+            border-radius: 10px; /* Bordes redondeados para las imágenes */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las imágenes */
         }
         footer {
-            margin-top: 20px;
+            background-color: #282c34;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
         .button {
             background-color: #00bfff;
@@ -71,7 +77,7 @@
 <body>
 
 <header>
-    <h1>MUSICA CON DIANA Y PABLO</h1>
+    <h1>MÚSICA CON DIANA Y PABLO</h1>
 </header>
 
 <nav>
@@ -85,27 +91,51 @@
 
 <div id="contenido">
     <h2>TOP DE LA SEMANA</h2>
+    <p>Las tendencias de esta semana destacan a varios artistas que han dominado las listas:</p>
+    <ul>
+        <li><strong>Olivia Rodrigo</strong> - Su álbum <em>"GUTS"</em> sigue en el top con canciones como <em>"vampire"</em> y <em>"bad idea right?"</em>.</li>
+        <li><strong>Doja Cat</strong> - <em>"Paint The Town Red"</em> ha llegado a lo más alto de las listas de Billboard Hot 100.</li>
+        <li><strong>Travis Scott</strong> - Su álbum <em>"UTOPIA"</em> continúa siendo un éxito rotundo, con temas como <em>"Meltdown"</em> y <em>"Fe!n"</em>.</li>
+        <li><strong>Karol G</strong> - Su álbum <em>"Mañana Será Bonito"</em> con éxitos como <em>"TQG"</em> y <em>"Provenza"</em>.</li>
+        <li><strong>Bad Bunny</strong> - <em>"WHERE SHE GOES"</em> y <em>"Un Preview"</em> siguen manteniéndose en los primeros puestos de popularidad.</li>
+        <li><strong>SZA</strong> - El álbum <em>"SOS"</em>, con el éxito <em>"Kill Bill"</em>, sigue siendo uno de los más escuchados del año.</li>
+        <li><strong>Peso Pluma</strong> - <em>"Ella Baila Sola"</em> y <em>"La Bebe (Remix)"</em> han liderado el regional mexicano.</li>
+        <li><strong>Drake</strong> - Su álbum <em>"For All the Dogs"</em> y sencillos como <em>"Search & Rescue"</em> lo mantienen en la cima.</li>
+    </ul>
+    <img src="imagenes/Bad.jpg" alt="Top de la Semana" width="500" height="auto"/>
+
+    <h2>TENDENCIAS DEL AÑO</h2>
+    <p>El 2023 ha sido un año impresionante para la música, con algunos álbumes y canciones que se han convertido en éxitos globales:</p>
+    <ul>
+        <li><strong>Harry Styles</strong> - El álbum <em>"Harry's House"</em> sigue generando impacto, especialmente con el hit <em>"As It Was"</em>.</li>
+        <li><strong>The Weeknd</strong> - Con su gira mundial y el lanzamiento de la canción <em>"Popular"</em> junto a Madonna, sigue siendo tendencia.</li>
+        <li><strong>Taylor Swift</strong> - La reedición de <em>"Speak Now (Taylor's Version)"</em> ha liderado las listas, y su gira "Eras Tour" ha sido un fenómeno mundial.</li>
+        <li><strong>Jung Kook</strong> (de BTS) - Su debut en solitario con <em>"Seven"</em> ha alcanzado éxito global.</li>
+        <li><strong>Miley Cyrus</strong> - El éxito de <em>"Flowers"</em> y su álbum <em>"Endless Summer Vacation"</em> la han posicionado como una de las artistas más influyentes del año.</li>
+        <li><strong>Beyoncé</strong> - El álbum <em>"Renaissance"</em> y su gira mundial han sido de lo más destacado.</li>
+        <li><strong>Rauw Alejandro</strong> - Su álbum <em>"Saturno"</em> y colaboraciones como <em>"RR"</em> con Rosalía siguen dominando la música latina.</li>
+    </ul>
+    <img src="imagenes/Grammy-Awards-Billie-Eilish-Olivia-Rodrigo-Dua-Lipa-1000x600.jpg" alt="Tendencias del Año" width="500" height="auto"/>
+
+    <h2>ARTISTAS DE ROCK DESTACADOS</h2>
+    <p>El rock sigue teniendo grandes exponentes que se mantienen relevantes en la actualidad:</p>
+    <ul>
+        <li><strong>Foo Fighters</strong> - Tras el lanzamiento de su álbum <em>"But Here We Are"</em>, la banda sigue encabezando festivales y conciertos masivos.</li>
+        <li><strong>Arctic Monkeys</strong> - Con su álbum <em>"The Car"</em>, han tenido un gran año y siguen llenando estadios en su gira.</li>
+        <li><strong>The Killers</strong> - Siguen siendo un referente del rock alternativo con éxitos como <em>"Mr. Brightside"</em> y nuevas producciones.</li>
+        <li><strong>Greta Van Fleet</strong> - La banda ha liderado el renacimiento del rock clásico con su sonido inspirado en Led Zeppelin y su último álbum <em>"Starcatcher"</em>.</li>
+        <li><strong>Måneskin</strong> - La banda italiana ha llevado el rock al mainstream con temas como <em>"Beggin'"</em> y su nuevo álbum <em>"Rush!"</em>.</li>
+    </ul>
+    <img src="imagenes/attachment-Grammys-Collage.jpg" alt="Artistas de Rock" width="500" height="auto"/>
+
+    <h2>TOP DEL 2023</h2>
     <p>A continuación verán el top de los mejores artistas en el 2023.</p>
-    <img src="imagenes/artistas.webp" width="300" height="400" alt="Top Artistas de la Semana">
-    
-    <h3>ARTISTAS QUE TE RECOMENDAMOS</h3>
-    <p>1- Olivia Rodrigo - Su álbum GUTS ha sido un éxito masivo, especialmente con la canción "Vampire."</p>
-    <img src="imagenes/olivia.png" width="400" height="400" alt="Olivia Rodrigo">
-    
-    <p>2- Doja Cat - Su versatilidad y su álbum Scarlet con el sencillo "Paint the Town Red" la mantienen en la cima.</p>
-    <img src="imagenes/doja.png" width="600" height="400" alt="Doja Cat">
-    
-    <p>3- Dua Lipa - Con su tema "Dance the Night" para la película Barbie y otros éxitos, sigue dominando el pop.</p>
-    <img src="imagenes/dua.jpg" width="400" height="400" alt="Dua Lipa">
-    
-    <p>4- NewJeans - El grupo de K-pop ha ganado rápidamente popularidad y reconocimiento internacional.</p>
-    <img src="imagenes/new.jpg" width="600" height="400" alt="NewJeans">
+    <img src="imagenes/artistas.webp" width="300" height="400" alt="Top Artistas de 2023">
 </div>
 
 <footer>
-    APLICACIONES WEB
+    &copy; 2024 Música con Diana y Pablo. Todos los derechos reservados.
 </footer>
 
 </body>
 </html>
-
