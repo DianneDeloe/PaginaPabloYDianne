@@ -1,7 +1,7 @@
 # Musica con Pablo y Diana
 ___
 ## Sobre este proyecto
-Lorem ipsum 
+Es una pagina que hablara sobre musica ,aqui presentamos musica y artistas que estan siendo tendencia y canciones que estan siendo escuchadas actualmente.
 
 ___
 ### JB Branch
